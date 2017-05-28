@@ -12,6 +12,11 @@ body {
   margin: 0 auto;
 }
 
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
 nav {
   background-color: cadetblue;
   color: white;
@@ -21,7 +26,7 @@ nav {
   justify-content: space-between;
 }
 
-nav div{
+nav div {
   display: flex;
   align-items: center;
 }
@@ -84,4 +89,36 @@ h1 {
 .service.exams .service-image {
 
 
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+
+.title {
+  background-color: cadetblue;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  color: white;
+  max-width: 10rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+footer {
+  padding: 4rem 2rem;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
 }
